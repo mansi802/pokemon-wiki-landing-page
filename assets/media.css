@@ -1,0 +1,155 @@
+@media (min-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  .centered {
+    padding-left: 9rem;
+  }
+
+  .centered > .main_heading {
+    font-size: 9rem;
+  }
+
+  .schedule,
+  .apply_button {
+    width: 200px;
+    height: 40px;
+  }
+
+  .section__2 {
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 90vh;
+  }
+
+  .section__2 > .pocket {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+
+  .section__3 > .subDiv__1 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1;
+    column-gap: 30px;
+  }
+
+  .section__3 > .subDiv__1 > div > p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .section__3 > .subDiv__2 > div > .card > div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .reveal__div {
+    padding: 0px 100px;
+  }
+
+  .reveal__div > div > .card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding: 0px 20px;
+  }
+
+  .reveal__div > div > .card > div {
+    padding: 0px 30px;
+  }
+
+  .section__4 {
+    padding: 20px 200px;
+  }
+
+  .section__5 > div {
+    grid-template-columns: 1fr 1.7fr;
+    grid-template-rows: 1fr;
+    padding: 0px 150px;
+    column-gap: 30px;
+    text-align: left;
+  }
+
+  .section__5 > div > .div__1 > p {
+    margin-bottom: 40px;
+  }
+
+  .section__5 > div > .div__1 > p.first__P {
+    margin-bottom: 40px;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-size: 1.2rem;
+  }
+
+  td,
+  th {
+    padding: 13px;
+  }
+
+  .section__6 {
+    padding: 10px 200px;
+  }
+
+  .section__9 > .cards_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .section__9 > .cards_container > .card {
+    width: 478px;
+  }
+
+  .section__11 {
+    width: 100vw;
+  }
+
+  .section__11 > .section11__cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 10px;
+    margin-top: 30px;
+  }
+
+  .section__11 > .section11__cards > .section11__card > p {
+    font-size: 1.5rem;
+    padding: 0px 0px;
+  }
+
+  .section__11 > button {
+    margin: 20px 0;
+  }
+
+  .section__11 > .section11__cards > .section11__card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .section12__cards {
+    padding: 0 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .section__13 {
+    padding: 10px 100px;
+  }
+
+  .section__13 > .logos > img {
+    height: 100px;
+  }
+
+  .section__15 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 100px;
+  }
+}
