@@ -92,6 +92,7 @@
 
   .section__6 {
     padding: 10px 200px;
+    height: 25vh;
   }
 
   .section__9 > .cards_container {
@@ -142,6 +143,11 @@
 
   .section__13 {
     padding: 10px 100px;
+  }
+
+  .section__13 > .logos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 
   .section__13 > .logos > img {

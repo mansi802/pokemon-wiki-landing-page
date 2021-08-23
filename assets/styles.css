@@ -15,6 +15,8 @@ html {
   font-family: Avenir-Next, Roboto, sans-serif;
   font-size: 50%;
   overflow-x: hidden;
+  /* width: 100%; */
+  word-break: break-word;
 }
 
 h1,
@@ -269,6 +271,10 @@ header > img {
   padding: 0px 30px;
 }
 
+.section__3 > .subDiv__1 > div > img {
+  width: 70%;
+}
+
 .section__3 > .subDiv__1 > div > h4 {
   font-size: 2rem;
   font-weight: 400;
@@ -319,7 +325,7 @@ header > img {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 60px;
+  /* padding: 0px 60px; */
   margin-top: 10px;
 }
 
@@ -452,7 +458,7 @@ td {
 
 .section__6 {
   width: 100vw;
-  height: 25vh;
+  height: max-content;
   background-color: var(--darkGray);
   text-align: center;
   padding: 20px 50px;
@@ -551,7 +557,7 @@ td {
   row-gap: 10px;
 }
 .section__9 > .cards_container > .card {
-  width: 350px;
+  width: 300px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin: 8px;
   line-height: 24px;
@@ -710,8 +716,8 @@ td {
 
 .section__13 > .logos {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(3, 1fr); */
 }
 
 .section__13 > .logos > img {
